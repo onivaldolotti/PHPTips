@@ -1,0 +1,23 @@
+{
+  "name": "onivaldolotti/phptips",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "onivaldo",
+      "email": "onivaldo_lotti@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    },
+    "files" : [
+      "src/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.*"
+  }
+}
